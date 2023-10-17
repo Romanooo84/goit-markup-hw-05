@@ -58,7 +58,26 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .link{
     text-decoration: none;
+    
 }
+
+.link-bar{
+    position: relative;
+    color: #404bbf;
+}
+
+.ink-bar::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    
+
+}
+
 
 .studio{
     font-size: 18px;
