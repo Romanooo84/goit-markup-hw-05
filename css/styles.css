@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .link-bar{
     position: relative;
     color: #404bbf;
+    
 }
 
 .link-bar::after{
@@ -74,8 +75,6 @@ h1, h2, h3, h4, h5, h6, p, a {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-
-
 }
 
 
