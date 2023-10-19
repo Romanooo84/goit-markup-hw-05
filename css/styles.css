@@ -630,19 +630,6 @@ h1, h2, h3, h4, h5, h6, p, a {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.box-shadow-transition{
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.box-shadow-transition:hover{
-    transform: translateY(0%);
-}
-
-.box-shadow-transition:focus{
-    transform: translateY(0%);
-}
-
-
 .button-portfolio-transition{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -650,7 +637,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.figure-sliding-text:hover{
+.figure-sliding:hover{
     transform: translateY(0%);
 }
 
