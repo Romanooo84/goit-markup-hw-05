@@ -720,7 +720,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 }
 
-.modal-close-button:focus{
+.modal-close-button:focus,
+.modal-close-button:hover{
     background-color: #404bbf;
     border: none;
     background-color: #404bbf; 
