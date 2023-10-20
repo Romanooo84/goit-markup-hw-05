@@ -595,6 +595,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .portfolio-link-container{
     display: block;
+    transform: translateY(100%);
 }
 
 .link:hover,
@@ -641,7 +642,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.figure-sliding:hover{
+.portfolio-link-container:hover{
     transform: translateY(0%);
 }
 
